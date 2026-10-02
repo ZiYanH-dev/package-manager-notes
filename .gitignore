@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+dist/
+
+# Node / pnpm
+node_modules/

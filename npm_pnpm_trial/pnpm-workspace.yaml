@@ -1,0 +1,4 @@
+# pnpm 工作区/构建脚本授权配置
+# 单包项目也用这个文件来批准原生构建脚本（pnpm v10 起默认拦截）
+allowBuilds:
+  esbuild: true      # tsx 的底层引擎，必须允许其 postinstall 脚本

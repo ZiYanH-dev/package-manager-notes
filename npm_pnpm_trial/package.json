@@ -1,0 +1,14 @@
+{
+  "name": "npm-pnpm-trial",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "tsx 01_demo.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "tsx": "^4.19.2"
+  }
+}
